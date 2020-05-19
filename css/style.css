@@ -54,8 +54,9 @@ body {
 
 .conteiner {
   width: 278px;
-  margin: 0 auto;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -70,9 +71,6 @@ body {
   text-align: center;
 }
 
-.site-navigation__list {
-  margin-bottom: 114px;
-}
 .site-navigation__list-item {
   display: inline-block;
 }
@@ -87,6 +85,7 @@ body {
   color: var(--header-color);
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .site-navigation__btn:hover,
@@ -106,10 +105,10 @@ body {
 
 .promo {
   padding-top: 30px;
+  margin: 0 auto;
 }
 
 .promo__title {
-  margin: 0;
   font-size: 30px;
   font-weight: 700;
   color: var(--header-color);
@@ -146,7 +145,7 @@ body {
 .partner {
   padding-top: 72px;
   padding-bottom: 58px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
 }
 
@@ -158,15 +157,10 @@ body {
 }
 
 .partner__list {
-  min-width: 278px;
-  margin: 0 auto;
-  text-align: center;
   margin-bottom: 28px;
 }
 .partner__list-item {
   width: 216px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .partner__list-item-wrapper {
@@ -239,6 +233,12 @@ body {
   .partner__list-item:not(:last-child) {
     margin-bottom: 28px;
   }
+  .site-navigation__list {
+    margin-bottom: 114px;
+  }
+  .partner__list-item {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -257,9 +257,7 @@ body {
     justify-content: space-between;
     flex-direction: row-reverse;
   }
-  .site-navigation__list {
-    margin-bottom: 0;
-  }
+
   .promo {
     padding-top: 154px;
   }
@@ -276,7 +274,6 @@ body {
     height: 40px;
   }
   .partner {
-    width: 492px;
     padding-top: 76px;
     padding-bottom: 40px;
   }
@@ -285,15 +282,29 @@ body {
   }
 
   .partner__list {
-    width: 492px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .partner__list-item-order2 {
+    order: 3;
+  }
+  .partner__list-item-order3 {
+    order: 2;
+  }
+  .partner__list-item-order4 {
+    order: 4;
   }
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
-  .partner__list-item:not(:nth-last-child(-n + 2)) {
+  .partner__list {
+    width: 492px;
+  }
+  .partner__list-item:not(:nth-child(2n)) {
     margin-bottom: 60px;
   }
 }
@@ -305,15 +316,8 @@ body {
   .conteiner {
     width: 940px;
   }
-  .site-navigation {
-    width: 940px;
-  }
-  .partner {
-    width: 940px;
-    padding-top: 74px;
-  }
 
-  .partner__list {
-    width: 940px;
+  .partner {
+    padding-top: 74px;
   }
 }
