@@ -190,20 +190,20 @@ body {
   right: 0;
 }
 .partner__list-item-wrapper-tv:after {
-  background-image: url(/img/icon/tv.png);
+  background-image: url(../img/icon/tv.png);
   background-color: #ff4e50;
 }
 .partner__list-item-wrapper-vessel:after {
-  background-image: url(/img/icon/vessel.png);
+  background-image: url(../img/icon/vessel.png);
   background-color: #ffa507;
 }
 
 .partner__list-item-wrapper-coffe:after {
-  background-image: url(/img/icon/coffe.png);
+  background-image: url(../img/icon/coffe.png);
   background-color: #1cd7ad;
 }
 .partner__list-item-wrapper-telegram:after {
-  background-image: url(/img/icon/telegram.png);
+  background-image: url(../img/icon/telegram.png);
   background-color: #4e73db;
 }
 
