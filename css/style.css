@@ -26,7 +26,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizong: inherit;
+  box-sizing: inherit;
 }
 
 html {
@@ -74,6 +74,7 @@ body {
 .site-navigation__list-item {
   display: inline-block;
 }
+
 .site-navigation__btn {
   width: 94px;
   height: 40px;
@@ -159,6 +160,7 @@ body {
 .partner__list {
   margin-bottom: 28px;
 }
+
 .partner__list-item {
   width: 216px;
 }
@@ -171,6 +173,7 @@ body {
   margin-right: auto;
   margin-bottom: 22px;
 }
+
 .partner__list-item-wrapper:after {
   content: "";
   display: inline-block;
@@ -184,10 +187,12 @@ body {
   bottom: 0;
   right: 0;
 }
+
 .partner__list-item-wrapper-tv:after {
   background-image: url(../img/icon/tv.png);
   background-color: #ff4e50;
 }
+
 .partner__list-item-wrapper-vessel:after {
   background-image: url(../img/icon/vessel.png);
   background-color: #ffa507;
@@ -197,6 +202,7 @@ body {
   background-image: url(../img/icon/coffe.png);
   background-color: #1cd7ad;
 }
+
 .partner__list-item-wrapper-telegram:after {
   background-image: url(../img/icon/telegram.png);
   background-color: #4e73db;
@@ -205,18 +211,21 @@ body {
 .partner__list-item-foto {
   border-radius: 50%;
 }
+
 .partner-name {
   font-size: 13.95px;
   font-weight: 700;
   color: var(--partner-color);
   margin-bottom: 18px;
 }
+
 .partner-description {
   font-family: var(--two-font);
   font-size: 13.97px;
   font-weight: 300;
   color: #666666;
 }
+
 .partner__btn {
   width: 284px;
   height: 44px;
@@ -231,12 +240,15 @@ body {
   .promo__description-br {
     display: block;
   }
+
   .partner__list-item:not(:last-child) {
     margin-bottom: 28px;
   }
+
   .site-navigation__list {
     margin-bottom: 114px;
   }
+
   .partner__list-item {
     margin-left: auto;
     margin-right: auto;
@@ -249,9 +261,11 @@ body {
     padding-bottom: 234px;
     background-image: url(../img/tablet-img.png);
   }
+
   .conteiner {
     width: 748px;
   }
+
   .site-navigation {
     width: 670px;
     display: flex;
@@ -263,22 +277,27 @@ body {
   .promo {
     padding-top: 154px;
   }
+
   .promo__title {
     font-size: 52px;
     margin-bottom: 40px;
   }
+
   .promo__description {
     margin-bottom: 36px;
     font-size: 24px;
   }
+
   .promo__btm {
     width: 226px;
     height: 40px;
   }
+
   .partner {
     padding-top: 76px;
     padding-bottom: 40px;
   }
+
   .partner__title {
     margin-bottom: 36px;
   }
@@ -294,9 +313,11 @@ body {
   .partner__list-item-order2 {
     order: 3;
   }
+
   .partner__list-item-order3 {
     order: 2;
   }
+
   .partner__list-item-order4 {
     order: 4;
   }
@@ -306,6 +327,7 @@ body {
   .partner__list {
     width: 492px;
   }
+
   .partner__list-item:not(:nth-child(2n)) {
     margin-bottom: 60px;
   }
@@ -315,6 +337,7 @@ body {
   .header {
     background-image: url(../img/desctop-img.png);
   }
+
   .conteiner {
     width: 940px;
   }
